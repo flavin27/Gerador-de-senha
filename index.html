@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gerador de senhas</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
@@ -16,11 +17,18 @@
         <div id="senha">
             senha gerada
         </div>
-        <p>Quantidade de caracteres</p>
-        <input type="number" name="qtd" id="qtd">
-        <p>Adionar Maiusculas</p>
-        <input type="checkbox" name="maiusculas" id="maiusculas">
-        <p>Adicionar</p>
+        <p>Quantidade de caracteres
+        <input type="number" name="qtd" id="qtd"></p>
+        <p>Adionar Maiusculas
+        <input type="checkbox" name="maiusculas" id="maiusculas"></p>
+        <p>Adicionar minusculas
+        <input type="checkbox" name="minusuculas" id="minusculas"></p>
+        <p>Adicionar numeros
+        <input type="checkbox" name="numeros" id="numeros"></p>
+        <p>Adicionar simbolos
+        <input type="checkbox" name="simbolos" id="simbolos"></p><br>
+        <button id="gerar">Gerar senha</button>
     </main>
+    <script src="script.js"></script>
 </body>
 </html>
